@@ -1,0 +1,11 @@
+name: Tf2Domination
+version: '${project.version}'
+main: org.oreo.tf2domination.Tf2Domination
+api-version: '1.20'
+
+commands:
+
+  domination: #Give the siege ladder to the player
+    description: A bunch of commands for the domination plugin
+    usage: /<command>
+    aliases: [domination]
